@@ -1,0 +1,17 @@
+[package]
+name = "parsable-macro"
+description = "Macro to generate the `parsable` trait on enums or structs."
+version = "0.1.0"
+edition = "2018"
+authors = [ "Sylvain Milan <milan.sylvain@gmail.com> "]
+repository = "https://github.com/symil/parsable-macro"
+license = "MIT"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "1.0", features = ["full"] }
+quote = "1.0"
+proc-macro2 = "1.0"
+proc-macro-error = "1.0"
