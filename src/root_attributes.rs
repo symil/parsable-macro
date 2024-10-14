@@ -1,6 +1,6 @@
 use proc_macro2::TokenStream;
 use syn::{*, parse::{Parse, ParseStream}};
-use crate::{markers::MarkerOutput};
+use crate::markers::MarkerOutput;
 
 // TODO: add prefix and suffix
 pub struct RootAttributes {

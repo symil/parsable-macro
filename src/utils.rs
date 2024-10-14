@@ -1,4 +1,4 @@
-use proc_macro2::{Span};
+use proc_macro2::Span;
 use syn::{Type, Ident};
 
 pub fn is_type(ty: &Type, name: &str) -> bool {

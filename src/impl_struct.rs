@@ -1,6 +1,6 @@
 use syn::{*, parse::{Parse, ParseStream}};
 use quote::quote;
-use crate::{field_attributes::FieldAttributes, output::Output, root_attributes::RootAttributes, utils::{is_type}};
+use crate::{field_attributes::FieldAttributes, output::Output, root_attributes::RootAttributes, utils::is_type};
 
 struct Wrapper {
     field: Field

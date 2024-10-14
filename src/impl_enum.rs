@@ -1,4 +1,4 @@
-use proc_macro2::{Span};
+use proc_macro2::Span;
 use syn::*;
 use quote::quote;
 use crate::{field_attributes::FieldAttributes, output::Output, root_attributes::RootAttributes};

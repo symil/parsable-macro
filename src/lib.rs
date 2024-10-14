@@ -8,8 +8,8 @@ mod impl_enum;
 mod output;
 mod markers;
 
-use proc_macro::{TokenStream};
-use proc_macro2::{Span};
+use proc_macro::TokenStream;
+use proc_macro2::Span;
 use quote::quote;
 use syn::*;
 use proc_macro_error::*;
